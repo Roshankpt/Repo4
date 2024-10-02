@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+.logo span {
+    color: #7d2ae8;
+}
+.navigation {
+    margin-left: -300px;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover {
+    color: #7d2ae8;
+}
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-talk:hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.content {
+    max-width: 500px;
+    color: #555;
+}
+.content h2 {
+    font-size: 3em;
+}
+.content h2 span {
+    color: #7d2ae8;
+}
+.content h4 {
+    font-size: 2em;
+}
+.content p {
+    padding: 10px 0 40px 0;
+}
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-group a:hover:nth-child(1) {
+    color: #7d2ae8;
+    background: transparent;
+}
+.btn-group a:nth-child(2) {
+    color: #7d2ae8;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2) {
+    color: #fff;
+    background: #7d2ae8;
+}
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #7d2ae8;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #7d2ae8;
+    transition: .3s;
+}
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+.social-icons a i {
+    color: #fff;
+}
+.profile-pic {
+    width: 200px;  /* Increased width for a larger image */
+    height: 250px; /* Increased height for a larger image */
+    border-radius: 50%; /* Keeps it circular */
+    overflow: hidden; 
+    border: 5px solid #7d2ae8; 
+    position: absolute; 
+    right: 100px; 
+    top: 100px; 
+    margin-top: 20px; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for effects */
+}
+
+.profile-pic:hover {
+    box-shadow: 0 0 15px rgba(125, 42, 232, 0.7); /* Add a glow effect on hover */
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+.profile-pic img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+section {
+    padding: 50px 100px;
+    background-color: #f9f9f9; /* Light background for sections */
+    color: #555;
+}
+
+.about h2, .contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.about li {
+    font-size: 1.2em;
+    margin: 5px 0; /* Spacing between list items */
+}
+
+.contact p {
+    margin: 10px 0; /* Spacing for contact information */
+}
+section {
+    padding: 50px 100px;
+    background-color: #f9f9f9; /* Light background for sections */
+    color: #555;
+    margin-bottom: 20px; /* Space between sections */
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 5px 0; /* Spacing between list items */
+}
+header {
+    background-color: #ff69b4; /* Pink color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    height: 20%;
+}
+
+.navigation a {
+    color: #fff; /* Change link color to white for better contrast */
+}
+
+.btn-talk {
+    background: #fff; /* Optional: Change button background for visibility */
+    color: #ff69b4; /* Optional: Change button text color */
+}
